@@ -1,0 +1,136 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="10dp"
+    tools:context=".Lec6_1">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <Chronometer
+            android:id="@+id/lec6_1_chronometer"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:format="예약에 걸린 시간: %s"/>
+
+        <Button
+            android:id="@+id/lec6_1_btnS"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:text="@string/lec6_1_btn1"/>
+    </LinearLayout>
+
+    <RadioGroup
+        android:id="@+id/lec6_1_rdoGroup"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+        <RadioButton
+            android:id="@+id/lec6_1_rdoDataset"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/lec6_1_rdo_dateset"/>
+        <RadioButton
+            android:id="@+id/lec6_1_rdoTimeset"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/lec6_1_rdo_timeset"/>
+    </RadioGroup>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_weight="1">
+        <FrameLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+            <CalendarView
+                android:id="@+id/lec6_1_calenderView"
+                android:layout_gravity="center"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:showWeekNumber="false"/>
+            <TimePicker
+                android:id="@+id/lec6_1_timePicker"
+                android:layout_gravity="center"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:timePickerMode="spinner"/>
+        </FrameLayout>
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+        <Button
+            android:id="@+id/lec6_1_btnE"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/lec6_1_btn2"/>
+
+        <TextView
+            android:id="@+id/lec6_1_tvYear"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/lec6_1_tv1"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/lec6_1_tv2"/>
+
+        <TextView
+            android:id="@+id/lec6_1_tvMonth"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/lec6_1_tv3"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/lec6_1_tv4"/>
+
+        <TextView
+            android:id="@+id/lec6_1_tvDay"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/lec6_1_tv5"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/lec6_1_tv6"/>
+
+        <TextView
+            android:id="@+id/lec6_1_tvHour"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/lec6_1_tv7"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/lec6_1_tv8"/>
+
+        <TextView
+            android:id="@+id/lec6_1_tvMinute"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/lec6_1_tv9"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/lec6_1_tv10"/>
+    </LinearLayout>
+
+
+
+</LinearLayout>

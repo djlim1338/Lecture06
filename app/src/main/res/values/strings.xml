@@ -1,0 +1,29 @@
+<resources>
+    <string name="app_name">6주차 강의</string>
+
+    <string name="btn_lec6_1">6주차 실습1</string>
+    <string name="btn_lec6_1change">6주차 실습1 기능 변경</string>
+
+    <string name="btn_lec6_prac1">6주차 연습문제 1</string>
+
+    <string name="lec6_1_btn1">예약 시작</string>
+    <string name="lec6_1_rdo_dateset">날짜 설정(캘린더뷰)</string>
+    <string name="lec6_1_rdo_timeset">시간 설정</string>
+    <string name="lec6_1_btn2">예약완료</string>
+    <string name="lec6_1_tv1">0000</string>
+    <string name="lec6_1_tv2">년</string>
+    <string name="lec6_1_tv3">00</string>
+    <string name="lec6_1_tv4">월</string>
+    <string name="lec6_1_tv5">00</string>
+    <string name="lec6_1_tv6">일</string>
+    <string name="lec6_1_tv7">00</string>
+    <string name="lec6_1_tv8">시</string>
+    <string name="lec6_1_tv9">00</string>
+    <string name="lec6_1_tv10">분 예약됨</string>
+
+    <string name="lec6_prac1_btn1">서랍 손잡이</string>
+    <string name="lec6_prac1_tv1">여긴 서랍 밖입니다.</string>
+
+    <string name="lec6_prac1_btn2">안 서랍 손잡이</string>
+    <string name="lec6_prac1_tv2">여긴 두번째 서랍 안 입니다.</string>
+</resources>
